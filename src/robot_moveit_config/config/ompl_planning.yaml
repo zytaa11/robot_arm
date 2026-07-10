@@ -1,0 +1,19 @@
+planner_configs:
+  RRTConnect:
+    type: geometric::RRTConnect
+  RRTstar:
+    type: geometric::RRTstar
+    range: 0.0
+    goal_bias: 0.05
+    delay_collision_checking: 1
+    shortcut_path: 0
+  LBKPIECE:
+    type: geometric::LBKPIECE
+
+robot_arm_group:
+  planner_configs:
+    - RRTConnect
+    - RRTstar
+    - LBKPIECE
+  default_planner_config: RRTConnect
+  planning_time: 30.0

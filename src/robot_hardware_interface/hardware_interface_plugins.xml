@@ -1,0 +1,11 @@
+<library path="robot_hardware_interface">
+  <class
+    name="robot_hardware_interface/USBSerialHardware"
+    type="robot_hardware_interface::USBSerialHardware"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      USB Serial hardware interface for Robot Artisans.
+      Outputs joint positions as ASCII or binary frames over serial port.
+    </description>
+  </class>
+</library>

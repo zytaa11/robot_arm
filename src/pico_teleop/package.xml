@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3"><name>pico_teleop</name><version>0.0.1</version>
+<description>PICO VR to MoveIt Servo teleoperation</description>
+<maintainer email="user@example.com">user</maintainer>
+<license>Apache License 2.0</license>
+<buildtool_depend>ament_python</buildtool_depend>
+<depend>rclpy</depend><depend>xr_msgs</depend>
+<depend>geometry_msgs</depend><depend>control_msgs</depend>
+<depend>trajectory_msgs</depend><depend>std_srvs</depend>
+<export><build_type>ament_python</build_type></export>
+</package>

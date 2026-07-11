@@ -9,3 +9,6 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+src/picoxr/
+src/XRoboToolkit-*/
+src/X7S/
